@@ -1,0 +1,33 @@
+body{
+  background-color: aqua;
+}
+.head
+{
+  background-color: purple;
+  margin:40px;
+  min-height:500px;
+  min-width: 400px;
+  text-align:center;
+}
+#forms input
+{
+  background-color: yellowgreen;
+  margin:20px;
+  padding:20px;
+  border-radius: 10px;
+  border:0;
+  font-weight: bold;
+}
+#forms input::placeholder
+{
+  color:black;
+}
+#forms button
+{
+  background-color: yellow;
+  padding:20px;
+  border-radius: 10px;
+  border:0;
+  cursor:pointer;
+  font-weight: bold;
+}
