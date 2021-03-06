@@ -1,0 +1,55 @@
+body {
+  background-color: aqua;
+  }
+.head
+{
+  background-color: purple;
+  margin:20px;
+  padding:20px;
+  text-align: center;
+  min-height:100px; 
+  min-width: 100px;
+}
+#forms input
+{
+  background-color: yellowgreen;
+  padding:20px;
+  margin:20px;
+  height:30px;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 10px;
+  border:0;
+}
+#forms input::placeholder
+{
+  font-weight: bold;
+  color:black;
+}
+#forms button
+{
+  background-color: yellow;
+  font-weight: bold;
+  height:60px;
+  width: 80px;
+  border-radius: 5px;
+  border:0;
+  cursor:pointer;
+}
+.list
+{
+  text-align:center;
+  background-color: teal;
+  font-size: 20px;
+  margin:10px;
+}
+.btn
+{
+  height:40px;
+  width:80px;
+  background-color: tomato;
+  cursor: pointer;
+  margin:10px;
+  border-radius: 5px;
+  border:0;
+}
